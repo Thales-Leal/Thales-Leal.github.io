@@ -2,7 +2,108 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+
     <title>Thales Leal</title>
+
+    <style>
+
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('fonts/league-spartan-v5-latin-regular.woff2') format('woff2'), 
+       url('fonts/league-spartan-v5-latin-regular.woff') format('woff'); 
+}
+
+@font-face {
+  font-family: 'League Thin';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('fonts/league-spartan-v5-latin-300.woff2') format('woff2'), 
+       url('fonts/league-spartan-v5-latin-300.woff') format('woff'); 
+}
+
+      body {
+        background-color: rgba(1, 22, 40, 1);
+      }
+
+      .mname {
+        font-family: 'Helvetica';
+        font-size: 45px;
+        color: rgba(234, 240, 206, 1);
+      }
+
+      .info {
+        font-family: 'League Spartan';
+        font-size: 23px;
+        color: rgba(192, 197, 193, 1);
+        font-weight: 600;
+      }
+
+      .sumry {
+        font-family: 'League Spartan';
+        font-size: 35px;
+        color: rgba(234, 240, 206, 1)
+      }
+
+      .sum-ol {
+        font-family: 'League Thin';
+        font-size: 28px;
+        color: rgba(246, 19, 49, 1);
+        font-weight: 600;
+      }
+
+      .topic {
+        font-family: 'League Spartan';
+        font-size: 30px;
+        color: rgba(234, 240, 206, 1);
+      }
+
+      .li-hl {
+        font-family: 'League Thin';
+        font-size: 28px;
+        color: rgba(125, 132, 145, 1);
+        font-weight: 600;
+      }
+
+      .li-hd {
+        font-family: 'League Thin';
+        font-size: 23px;
+        color: rgba(125, 132, 145, 1);
+      }
+
+      .pf1 {
+        font-family: 'League Thin';
+        font-size: 25px;
+        color: rgba(125, 132, 145, 1);
+      }
+
+      .pf2 {
+        font-family: 'League Thin';
+        font-size: 25px;
+        color: rgba(125, 132, 145, 1);
+        font-weight: 600;
+      }
+      
+      .blog-link {
+        font-family: 'League Thin';
+        font-size: 25px;
+        color: rgba(246, 19, 49, 1);
+        font-weight: 600;
+      }
+
+      .back-top {
+        font-family: 'League Spartan';
+        font-size: 25px;
+        color: rgba(246, 19, 49, 1);
+        font-weight: 600;
+        font-style: normal;
+      }
+
+    </style>
+
   </head>
 
   <body>
@@ -12,55 +113,56 @@
       width="250"
       alt="jovem de óculos olhando para a câmera"
     />
-    <h1>Thales Leal Guimarães</h1>
-    <p>Full Stack Web Development student at Trybe</p>
-    <p>Graphic Designer</p>
-    <p>Brazilian | Salvador - BA</p>
+    <h1 class="mname">Thales Leal Guimarães</h1>
+    <p class="info">Full Stack Web Development student at Trybe</p>
+    <p class="info">Graphic Designer</p>
+    <p class="info">Brazilian | Salvador - BA</p>
 
-    <h2>Summary</h2>
+    <h2 class="sumry">• Summary •</h2>
     <ol>
-      <li><a href="#top1">About me</a></li>
-      <li><a href="#top2">Skills</a></li>
-      <li><a href="#top3">Blog Suggestion</a></li>
+      <li class="sum-ol"><a class="sum-ol" href="#top1">About me</a></li>
+      <li class="sum-ol"><a class="sum-ol" href="#top2">Skills</a></li>
+      <li class="sum-ol"><a class="sum-ol" href="#top3">Blog Suggestion</a></li>
     </ol>
 
-    <h3 id="top1">1. About me</h3>
-    <p>
+    <h3 class="topic" id="top1">1. About me</h3>
+    <p class="pf1">
       I was always interested in the <em>tech world</em> and was sure that I
       would work with tecnology and computers. As proof, I became a graphic
-      designer <strong>age of 17</strong> and since then, <br />I have been
+      designer <strong>age of 17</strong> and since then, I have been
       <strong>working and make a livng out of it.</strong> With that formation,
       I got the opportunity to work with Digital Marketing multiple times,
-      editing images, videos, creating compositions, <br />logos, applying
+      editing images, videos, creating compositions, logos, applying
       marketing methodologies, managing social media, <em>etc.</em> But
       programming was what I always cherished the most, <strong><em>reason why I jumped into 
       Trybe's Web Development course.</em></strong>
     </p>
 
-    <h3 id="top2">2. Skills</h3>
+    <h3 class="topic" id="top2">2. Skills</h3>
     <ul>
-      <li><strong>Composition and Image Editing</strong></li>
-      <li>Audiovisual Editing</li>
-      <li>Final Art</li>
-      <li>Digital Marketing</li>
-      <li>Social Media</li>
-      <li>Branding</li>
-      <li>Photoshop</li>
-      <li>After Effects</li>
-      <li>Illustrator</li>
-      <li>Premiere</li>
-      <li>Lightroom</li>
-      <li>Canva</li>
-      <li>Maya</li>
-      <li>Z-Brush</li>
+      <li class="li-hl">Composition and Image Editing</li>
+      <li class="li-hl">Audiovisual Editing</li>
+      <li class="li-hl">Digital Marketing</li>
+      <li class="li-hl">Social Media</li>
+      <li class="li-hl">Final Art</li>
+      <li class="li-hl">Branding</li>
+      <br><li class="li-hd">Photoshop</li>
+      <li class="li-hd">After Effects</li>
+      <li class="li-hd">Illustrator</li>
+      <li class="li-hd">Premiere</li>
+      <li class="li-hd">Lightroom</li>
+      <li class="li-hd">Canva</li>
+      <li class="li-hd">Maya</li>
+      <li class="li-hd">Z-Brush</li>
     </ul>
 
-    <h3 id="top3">3. Blog Suggestion</h3>
-    <p>
+    <h3 class="topic" id="top3">3. Blog Suggestion</h3>
+    <p class="pf2">
       Type like a hacker! Acess
-      <a href="https://hackertyper.net" target="_blank">Hackertyper!</a>
+      <a class="blog-link" href="https://hackertyper.net" target="_blank">Hackertyper!</a>
     </p>
 
-    <a href="#ph1">Back to Profile Photo</a>
+    <a class="back-top" href="#ph1">Back to Top</a>
+    
   </body>
 </html>
