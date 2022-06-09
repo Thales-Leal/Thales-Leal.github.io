@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("fonts/league-spartan-v5-latin-regular.woff2") format("woff2"),
+    url("fonts/league-spartan-v5-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "League Thin";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""),
+    url("fonts/league-spartan-v5-latin-300.woff2") format("woff2"),
+    url("fonts/league-spartan-v5-latin-300.woff") format("woff");
+}
+
+body {
+  background-color: rgba(1, 22, 40, 1);
+}
+
+.mname {
+  font-family: "Helvetica";
+  font-size: 45px;
+  color: rgba(234, 240, 206, 1);
+}
+
+.info {
+  font-family: "League Spartan";
+  font-size: 23px;
+  color: rgba(192, 197, 193, 1);
+  font-weight: 600;
+}
+
+.sumry {
+  font-family: "League Spartan";
+  font-size: 35px;
+  color: rgba(234, 240, 206, 1);
+}
+
+.sum-ol {
+  font-family: "League Thin";
+  font-size: 28px;
+  color: rgba(246, 19, 49, 1);
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.topic {
+  font-family: "League Spartan";
+  font-size: 30px;
+  color: rgba(234, 240, 206, 1);
+}
+
+.li-hl {
+  font-family: "League Thin";
+  font-size: 28px;
+  color: rgba(125, 132, 145, 1);
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.li-hd {
+  font-family: "League Thin";
+  font-size: 23px;
+  color: rgba(125, 132, 145, 1);
+  line-height: 35px;
+}
+
+.pf1 {
+  font-family: "League Thin";
+  font-size: 25px;
+  color: rgba(125, 132, 145, 1);
+  text-align: justify;
+}
+
+.pf2 {
+  font-family: "League Thin";
+  font-size: 25px;
+  color: rgba(125, 132, 145, 1);
+  font-weight: 600;
+}
+
+.blog-link {
+  font-family: "League Thin";
+  font-size: 25px;
+  color: rgba(246, 19, 49, 1);
+  font-weight: 600;
+}
+
+.back-top {
+  font-family: "League Spartan";
+  font-size: 25px;
+  color: rgba(234, 240, 206, 1);
+  font-weight: 600;
+  text-decoration: none;
+  margin: 100px 20px 50px;
+  background-color: rgba(246, 19, 49, 1);
+  padding: 10px 10px;
+}
+
+.back-top:hover {
+  background-color: rgba(234, 240, 206, 1);
+  color: rgba(246, 19, 49, 1);
+}
