@@ -11,8 +11,7 @@
   font-family: "League Thin";
   font-style: normal;
   font-weight: 300;
-  src: local(""),
-    url("fonts/league-spartan-v5-latin-300.woff2") format("woff2"),
+  src: local(""), url("fonts/league-spartan-v5-latin-300.woff2") format("woff2"),
     url("fonts/league-spartan-v5-latin-300.woff") format("woff");
 }
 
@@ -51,6 +50,7 @@ body {
   font-family: "League Spartan";
   font-size: 30px;
   color: rgba(234, 240, 206, 1);
+  margin-top: 60px;
 }
 
 .li-hl {
@@ -73,6 +73,7 @@ body {
   font-size: 25px;
   color: rgba(125, 132, 145, 1);
   text-align: justify;
+  line-height: 30px;
 }
 
 .pf2 {
