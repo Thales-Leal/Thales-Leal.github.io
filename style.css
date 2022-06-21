@@ -21,26 +21,37 @@ body {
 
 #ph1 {
   border-radius: 50%;
-  margin-left: 40px;
+  position: absolute;
+  left: 40px;
+  top: 55px;
 }
 
 .mname {
   font-family: "Helvetica";
   font-size: 45px;
   color: rgba(234, 240, 206, 1);
+  position: absolute;
+  top: 60px;
+  left: 350px;
 }
+
 
 .info {
   font-family: "League Spartan";
   font-size: 23px;
   color: rgba(192, 197, 193, 1);
   font-weight: 600;
+  line-height: 40px;
+  top: 150px;
+  left: 350px;
+  position: absolute;
 }
 
 .sumry {
   font-family: "League Spartan";
   font-size: 35px;
   color: rgba(234, 240, 206, 1);
+  margin-top: 380px;
 }
 
 .sum-ol {
@@ -101,9 +112,16 @@ body {
   color: rgba(234, 240, 206, 1);
   font-weight: 600;
   text-decoration: none;
-  margin: 100px 20px 50px;
+  text-align: center;
   background-color: rgba(246, 19, 49, 1);
   padding: 10px 10px;
+  position: fixed;
+  bottom: 0px;
+  top: 545px;
+  left: 600px;
+  border-radius: 5px 5px 0px 0px;
+  
+
 }
 
 .back-top:hover {
